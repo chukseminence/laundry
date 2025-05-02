@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.container{
+    background: url(/images/mountain-landscape-natural-background-83_1028035-3091.jpg) #a2e3f0 no-repeat center;
+    margin-top: 4rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+    
+}
+
+.services{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.serv-head{
+    display: inline-flex;
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.para-head{
+    color: #fff;
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+}
+
+.serv{
+    color: aqua;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+    
+}
+
+.card-list .card-item{
+    color: #fff;
+    user-select: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    backdrop-filter: blur(50px);
+    background:rgba(255, 255, 255, 0.2) ;
+    border: rgba(255, 255, 255, 0.5);
+}
+
+.card-list .card-item .user-image{
+    width: 300px;
+    height: 250px;
+    border-radius: 5%;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+}
+
+.card-list .card-item .user-profession{
+    font-size: 1.15rem;
+    color: #000;
+    font-weight: 500;
+    margin: 14px 0 40px;
+}
+
+.card-list .card-item .message-button{
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #a2e3f0;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background:#fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+
+}
+
+.card-list .card-item .message-button:hover{
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.slider-wrapper .swiper-pagination-bullet{
+    background: #fff;
+    height: 15px;
+    width: 15px;
+}
+
+.slider-wrapper .swiper-slide-button{
+    color: #fff;
+    margin-top: -50px;
+     transition: 0.2s ease;
+     align-items: center;
+     justify-content: center;
+     margin-top: 2.5rem;
+}
+
+.slider-wrapper .swiper-slide-button:hover{
+    color: #4658ff;
+}
+
+@media (max-width:780px) {
+    .container{
+        margin-top:50rem;
+    }
+    .slider-wrapper{
+        margin: 0 10px 40px;
+    }
+
+    .slider-wrapper .swiper-slide-button{
+        display: none;
+    }
+
+    .serv-head{
+    font-size: 25px;
+    margin-left: -2rem;
+}
+
+.para-head{
+    display: none;
+    text-align: center;
+    color: red;
+}
+
+
+
+}
+
+
+.user-name{
+    color: #fff;
+    font-size: 18px;
+}
+
