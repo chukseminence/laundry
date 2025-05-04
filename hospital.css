@@ -1,3 +1,19 @@
+ html,body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    
+
+        
+
+    }
+
+    section{
+    background-color: #14BFC9;
+    max-width: 1000px;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -1295,6 +1311,22 @@ h5{
 
 
 @media(max-width:700px){
+
+	 html,body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    
+
+        
+
+    }
+
+    section{
+    background-color: #14BFC9;
+    max-width: 1000px;
+}
     footer{
     
    margin-top: 20rem;
@@ -1552,6 +1584,22 @@ h5{
 }
 
 @media(max-width:480px){
+
+	 html,body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    
+
+        
+
+    }
+
+    section{
+    background-color: #14BFC9;
+    max-width: 1000px;
+}
     section{
         margin-left: 1rem;
     }
